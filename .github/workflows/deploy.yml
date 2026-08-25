@@ -30,10 +30,10 @@ jobs:
         run: corepack enable && corepack prepare pnpm@10.4.1 --activate
 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --no-frozen-lockfile --ignore-scripts
 
       - name: Build
-        run: pnpm vite build
+        run: npx vite build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
