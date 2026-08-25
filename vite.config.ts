@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/super-store-mobile/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
