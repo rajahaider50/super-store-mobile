@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/Sp7s6tYFdHnGFMVEP98eBH.git",
+    "expiration": "2026-08-26T17:55:05.883Z",
+    "token": "art_v2_x_d2c581bde13178a6eabe86232ef64b38f8590a0d?expires=1787766905",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "super-store-mobile",
+  "path": "/home/ubuntu/super-store-mobile",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "4vwv43oHh5bgua2GQ6bYkq",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "k4iSAN28idffw6M96TE4rx",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Bike Rider",
+    "OWNER_OPEN_ID": "AaWZBxHHJ5UbjvBgvpw3J4",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "715de194-9d2f-476c-bba2-048206831246",
+    "VITE_APP_ID": "Sp7s6tYFdHnGFMVEP98eBH",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Super Store Mobile",
+    "VITE_FRONTEND_FORGE_API_KEY": "EVomFRP6N79fhzV7mmFuC3",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
